@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 @Service
-public class AccountService {
+public class AccountService implements IAccountService  {
     private BigDecimal balance = BigDecimal.ZERO;
     private final List<Transaction> transactions = new ArrayList<>();
 

@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BankAccountKataApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(BankAccountKataApplication.class, args);
-		System.out.println("*** spring is running **");
 	}
 
 }
